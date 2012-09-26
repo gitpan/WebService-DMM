@@ -1,0 +1,32 @@
+---
+abstract: 'DMM webservice module'
+author:
+  - 'Syohei YOSHIDA <syohex@gmail.com>'
+build_requires:
+  ExtUtils::MakeMaker: 6.59
+  Test::Mock::Guard: 0
+  Test::More: 0.98
+configure_requires:
+  ExtUtils::MakeMaker: 6.59
+distribution_type: module
+dynamic_config: 1
+generated_by: 'Module::Install version 1.06'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: WebService-DMM
+no_index:
+  directory:
+    - inc
+    - t
+    - xt
+requires:
+  Class::Accessor::Lite: 0.05
+  Furl: 0.41
+  XML::LibXML: 0
+  perl: 5.8.1
+resources:
+  license: http://dev.perl.org/licenses/
+  repository: git://github.com/syohex/p5-WebService-DMM.git
+version: 0.01
