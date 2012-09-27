@@ -24,9 +24,10 @@ no_index:
 requires:
   Class::Accessor::Lite: 0.05
   Furl: 0.41
+  URI: 0
   XML::LibXML: 0
   perl: 5.8.1
 resources:
   license: http://dev.perl.org/licenses/
   repository: git://github.com/syohex/p5-WebService-DMM.git
-version: 0.01
+version: 0.02
