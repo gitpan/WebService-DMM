@@ -1,5 +1,11 @@
 Revision history for Perl extension WebService::DMM
 
+0.06 2013-05-16T14:47:59Z
+        - implement 'last_response' method
+          'last_response' returns a last response which is Furl::Response
+          instance.
+        - convert to Minilla
+
 0.05  2012-12-03
         - Support API version 2.00
 

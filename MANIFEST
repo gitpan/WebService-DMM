@@ -1,5 +1,9 @@
-.gitignore
+Build.PL
 Changes
+LICENSE
+META.json
+README.md
+cpanfile
 eg/dmm.co.jp/book.pl
 eg/dmm.co.jp/digital.pl
 eg/dmm.co.jp/doujin.pl
@@ -18,16 +22,6 @@ eg/dmm.com/nandemo.pl
 eg/dmm.com/pcsoft.pl
 eg/dmm.com/rental.pl
 eg/dmm.com/site_entire.pl
-inc/Module/Install.pm
-inc/Module/Install/AuthorTests.pm
-inc/Module/Install/Base.pm
-inc/Module/Install/Can.pm
-inc/Module/Install/Fetch.pm
-inc/Module/Install/Makefile.pm
-inc/Module/Install/Metadata.pm
-inc/Module/Install/Repository.pm
-inc/Module/Install/Win32.pm
-inc/Module/Install/WriteAll.pm
 lib/WebService/DMM.pm
 lib/WebService/DMM/Delivery.pm
 lib/WebService/DMM/Item.pm
@@ -40,16 +34,12 @@ lib/WebService/DMM/Person/Director.pm
 lib/WebService/DMM/Person/Fighter.pm
 lib/WebService/DMM/Response.pm
 lib/WebService/DMM/Series.pm
-Makefile.PL
-MANIFEST			This list of files
-META.yml
-README
 t/00_compile.t
 t/01_instance.t
 t/02_search.t
 t/03_item.t
 t/04_parse.t
 t/05_agent.t
-xt/01_spelling.t
 xt/02_perlcritic.t
-xt/03_pod.t
+META.yml
+MANIFEST
