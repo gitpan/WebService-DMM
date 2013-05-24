@@ -40,6 +40,7 @@ t/02_search.t
 t/03_item.t
 t/04_parse.t
 t/05_agent.t
+xt/01_error_response.t
 xt/02_perlcritic.t
 META.yml
 MANIFEST

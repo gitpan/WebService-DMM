@@ -94,10 +94,6 @@ _%param_ optional parameters are:
     Search keyword. You can use DMM search keyword style.
     Keyword should be string(not byte sequence).
 
-### $dmm->last\_response()
-
-Return last response which is a Furl::Response instance.
-
 # SERVICE AND FLOOR
 
 DMM.com services are:
@@ -185,7 +181,7 @@ Syohei YOSHIDA <syohex@gmail.com>
 
 # COPYRIGHT
 
-Copyright 2012- Syohei YOSHIDA
+Copyright 2013 - Syohei YOSHIDA
 
 # LICENSE
 
