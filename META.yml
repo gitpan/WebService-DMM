@@ -29,7 +29,7 @@ no_index:
 provides:
   WebService::DMM:
     file: lib/WebService/DMM.pm
-    version: 0.07
+    version: 0.08
   WebService::DMM::Delivery:
     file: lib/WebService/DMM/Delivery.pm
   WebService::DMM::Item:
@@ -63,4 +63,4 @@ resources:
   bugtracker: https://github.com/syohex/p5-WebService-DMM/issues
   homepage: https://github.com/syohex/p5-WebService-DMM
   repository: git://github.com/syohex/p5-WebService-DMM.git
-version: 0.07
+version: 0.08
