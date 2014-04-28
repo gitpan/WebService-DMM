@@ -34,6 +34,7 @@ lib/WebService/DMM/Person/Director.pm
 lib/WebService/DMM/Person/Fighter.pm
 lib/WebService/DMM/Response.pm
 lib/WebService/DMM/Series.pm
+minil.toml
 t/00_compile.t
 t/01_instance.t
 t/02_search.t
