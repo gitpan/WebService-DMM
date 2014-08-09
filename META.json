@@ -4,7 +4,7 @@
       "Syohei YOSHIDA <syohex@gmail.com>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Minilla/v0.14.1",
+   "generated_by" : "Minilla/v2.1.1",
    "license" : [
       "perl_5"
    ],
@@ -35,8 +35,6 @@
       },
       "configure" : {
          "requires" : {
-            "CPAN::Meta" : "0",
-            "CPAN::Meta::Prereqs" : "0",
             "Module::Build" : "0.38"
          }
       },
@@ -63,7 +61,7 @@
    "provides" : {
       "WebService::DMM" : {
          "file" : "lib/WebService/DMM.pm",
-         "version" : "0.10"
+         "version" : "0.11"
       },
       "WebService::DMM::Delivery" : {
          "file" : "lib/WebService/DMM/Delivery.pm"
@@ -110,5 +108,5 @@
          "web" : "https://github.com/syohex/p5-WebService-DMM"
       }
    },
-   "version" : "0.10"
+   "version" : "0.11"
 }
